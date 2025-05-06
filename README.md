@@ -1,55 +1,42 @@
-INST414_Final_Project
-==============================
+├── LICENSE
+├── Makefile             <- Commands like `make data` or `make train`
+├── README.md            <- Project overview and instructions (this file)
+├── data
+│   ├── raw              <- Original, immutable data dump
+│   ├── external         <- Third-party or externally sourced data
+│   ├── interim          <- Data after cleaning or minimal transformation
+│   └── processed        <- Final data used for modeling
+│
+├── docs                 <- Sphinx documentation (optional)
+│
+├── models               <- Trained and serialized models, logs, summaries
+│
+├── notebooks            <- Jupyter notebooks for exploration and experiments
+│                         Naming: `1.0-xyz-task-name.ipynb`
+│
+├── references           <- Data dictionaries, manuals, and explanatory docs
+│
+├── reports
+│   ├── figures          <- Visualizations generated for reports
+│   └── ...              <- PDF/HTML reports or presentations
+│
+├── requirements.txt     <- Python dependencies
+├── setup.py             <- Makes `src` a pip-installable module
+├── tox.ini              <- For automated testing with `tox`
+│
+├── src                  <- Source code
+│   ├── __init__.py      <- Makes `src` a Python module
+│   ├── data
+│   │   ├── load_data.py
+│   │   └── preprocessing.py
+│   ├── features
+│   │   └── feature_engineering.py
+│   ├── models
+│   │   ├── train_models.py
+│   │   └── evaluate_models.py
+│   └── visualization
+│       └── visualization.py
 
-Detecting synthetic credit card fraud using machine learning models to identify suspicious transaction patterns and reduce financial risk.
-
-Project Organization
-------------
-
-    ├── LICENSE
-    ├── Makefile           <- Makefile with commands like `make data` or `make train`
-    ├── README.md          <- The top-level README for developers using this project.
-    ├── data
-    │   ├── external       <- Data from third party sources.
-    │   ├── interim        <- Intermediate data that has been transformed.
-    │   ├── processed      <- The final, canonical data sets for modeling.
-    │   └── raw            <- The original, immutable data dump.
-    │
-    ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
-    │
-    ├── models             <- Trained and serialized models, model predictions, or model summaries
-    │
-    ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-    │                         the creator's initials, and a short `-` delimited description, e.g.
-    │                         `1.0-jqp-initial-data-exploration`.
-    │
-    ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
-    │
-    ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
-    │   └── figures        <- Generated graphics and figures to be used in reporting
-    │
-    ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-    │                         generated with `pip freeze > requirements.txt`
-    │
-    ├── setup.py           <- makes project pip installable (pip install -e .) so src can be imported
-    ├── src                <- Source code for use in this project.
-    │   ├── __init__.py    <- Makes src a Python module
-    │   │
-    │   ├── data           <- Scripts to download or generate data
-    │   │   └── make_dataset.py
-    │   │
-    │   ├── features       <- Scripts to turn raw data into features for modeling
-    │   │   └── build_features.py
-    │   │
-    │   ├── models         <- Scripts to train models and then use trained models to make
-    │   │   │                 predictions
-    │   │   ├── predict_model.py
-    │   │   └── train_model.py
-    │   │
-    │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
-    │       └── visualize.py
-    │
-    └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
 
 
 --------
