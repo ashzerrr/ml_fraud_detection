@@ -1,3 +1,1 @@
-#Link to train_fraud_labels.json( Too large to be uploaded on Github)
-
-https://www.kaggle.com/datasets/computingvictor/transactions-fraud-datasets 
+Load_data.py dowloads train_fraud_labels from Google drive
