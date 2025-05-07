@@ -1,4 +1,4 @@
 
-# Link to transactions_data.csv (too large to be uploaded on Github)
+load_data.py downloads transactions_data.py from Google Drive
 
-https://www.kaggle.com/datasets/computingvictor/transactions-fraud-datasets 
+
