@@ -1,3 +1,14 @@
+# ML Fraud Detection
+
+##Project Description
+
+Detecting Synthetic credit card fruad using Machine learning models to identify suspicius transactions patterns and reduce financial fraud
+This project applies RandomForest and XGBoost classifiers to real-world transactions data, with a focus on improving recall for fraud detection.
+It includes preprocessing, SMOTE oversampling, feature engineering and hyperparameter tuning.
+The goal is to identify fraud cases accurately  while minimizing false positives.
+
+
+
 
 ├── LICENSE
 ├── Makefile             <- Commands like `make data` or `make train`
